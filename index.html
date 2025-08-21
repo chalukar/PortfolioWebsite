@@ -353,11 +353,13 @@
                 <p class="company"><i class="bi bi-building"></i> Kandy Kaffe | United States (Remote)</p>
                 <p class="project"><i class="bi bi-briefcase"></i>E-Commerce Ordering Platform </p>
                 <ul>
-                  <li>Developed and maintained secure backend services for food ordering platform using .Net Core and microservices</li>
-                  <li>Integrated asynchronous service communication via Azure Service Bus and RabbitMQ</li>
-                  <li>Worked in a DevOps-focused environment, ensuring system scalability and uptime.</li>
-                  <li>Developed and integrated key microservices including Coupon Microservice, Shopping Cart Microservice, Order Microservice, Email Microservice, and Payment Microservice.</li>
-                  <li>Implemented Strip Checkout payment method for secure transaction handling.</li>
+                  <li>Designed, developed, and maintained secure .NET Core microservices for food ordering, covering Shopping Cart, Order, Coupon, Email, and Payment domains.</li>
+                  <li>Integrated Azure Service Bus (queues & topics) and RabbitMQ for asynchronous, event-driven communication between services.</li>
+                  <li>Built Azure Functions to handle background tasks such as order processing, cart expiration, and payment status synchronization.</li>
+                  <li>Developed an Email microservice/API consuming Service Bus messages to deliver transactional notifications (order confirmations, receipts, password resets) with retry and DLQ handling</li>
+                  <li>Implemented Stripe Checkout for secure payment processing with webhook-based status updates.</li>
+                  <li>Leveraged Azure Blob Storage for managing receipts, invoices, and customer-uploaded assets.</li>
+                  <li>Exposed services through Ocelot API Gateway, enabling centralized routing, authentication, and request aggregation.</li>
                 </ul>
               </div>
 

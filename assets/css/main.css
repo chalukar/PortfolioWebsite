@@ -1,15 +1,5 @@
-/**
-* Template Name: SnapFolio
-* Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
-* Updated: Jul 21 2025 with Bootstrap v5.3.7
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
+
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -18,75 +8,87 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #1f1f1f; /* Background color for the entire website, including individual sections */
-  --default-color: #c8ccce; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #c8ccce; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ececec; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #232323; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #310606; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
-}
-
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+/*--------------------------------------------------------------
+# Modern Theme Variables (Updated 2025)
+--------------------------------------------------------------*/
 :root {
-  --nav-color: rgba(236, 236, 236, 0.59);  /* The default color of the main navmenu links */
-  --nav-hover-color: #0586c6; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #393939; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #393939; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #c8ccce; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ececec; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
-}
+  /* Fonts */
+  --default-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --heading-font: "Poppins", sans-serif;
+  --nav-font: "Nunito Sans", sans-serif;
 
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+  /* Core Colors */
+  --background-color: #ffffff;
+  --surface-color: #f9fafb;
+  --default-color: #1a1a1a;
+  --heading-color: #111111;
+  --accent-color: #0d6efd;
+  --accent-color-light: #e7f1ff;
+  --contrast-color: #ffffff;
 
-.light-background {
-  --background-color: #2c2c2c;
-  --surface-color: #323232;
-}
+  /* Navigation */
+  --nav-color: #1a1a1a;
+  --nav-hover-color: var(--accent-color);
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #1a1a1a;
+  --nav-dropdown-hover-color: var(--accent-color);
 
-.dark-background {
-  --background-color: #040b14;
-  --default-color: #c8ccce;
-  --heading-color: #c8ccce;
-  --surface-color: #151f2b;
-  --contrast-color: #c8ccce;
-}
+  /* Shadows */
+  --shadow-small: 0 2px 6px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 6px 16px rgba(0, 0, 0, 0.08);
+  --shadow-large: 0 12px 32px rgba(0, 0, 0, 0.12);
 
-/* Smooth scroll */
-:root {
+  /* Rounding */
+  --radius-small: 8px;
+  --radius-medium: 16px;
+  --radius-large: 32px;
+
   scroll-behavior: smooth;
 }
 span {
   color: #0d6efd; /* Bootstrap primary blue */
 }
 /*--------------------------------------------------------------
-# General Styling & Shared Classes
+# Global Base Styling
 --------------------------------------------------------------*/
 body {
-  color: var(--default-color);
   background-color: var(--background-color);
+  color: var(--default-color);
   font-family: var(--default-font);
+  line-height: 1.6;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  font-weight: 700;
+  letter-spacing: -0.3px;
 }
 
 a {
   color: var(--accent-color);
   text-decoration: none;
-  transition: 0.3s;
+  transition: all 0.25s ease;
 }
-
 a:hover {
-  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  color: color-mix(in srgb, var(--accent-color), black 20%);
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--heading-color);
-  font-family: var(--heading-font);
+/* Smooth UI Feel */
+.card, .section, .profile-card, .skill-card, .service-card {
+  background: var(--surface-color);
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-small);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+.card:hover, .profile-card:hover, .skill-card:hover, .service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-medium);
 }
 
 /* PHP Email Form Messages

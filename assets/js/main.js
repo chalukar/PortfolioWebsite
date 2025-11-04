@@ -1,7 +1,7 @@
 /**
-* Template Name: SnapFolio
-* Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
-* Updated: Jul 21 2025 with Bootstrap v5.3.7
+* Template Name: MyResume
+* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+* Updated: Jun 29 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -31,24 +31,6 @@
       }
     });
 
-  });
-
-  // Select all copy buttons
-  document.querySelectorAll('.copy-btn').forEach(button => {
-    button.addEventListener('click', () => {
-      // Get the text to copy from the data-copy attribute
-      const textToCopy = button.getAttribute('data-copy');
-
-      // Use the Clipboard API to copy text
-      navigator.clipboard.writeText(textToCopy).then(() => {
-        // Optional: show a small notification
-        const originalTitle = button.title;
-        button.title = 'Copied!';
-        setTimeout(() => button.title = originalTitle, 1500);
-      }).catch(err => {
-        console.error('Failed to copy text: ', err);
-      });
-    });
   });
 
   /**

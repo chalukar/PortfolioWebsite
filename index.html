@@ -1,321 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - My Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chaluka Rathnayake — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
 </head>
+<body>
 
-<body class="index-page">
+<button class="mobile-toggle" id="mobileToggle"><i class="bi bi-list"></i></button>
 
-  <header id="header" class="header d-flex flex-column justify-content-center">
-
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="#skills"><i class="bi bi-file-earmark-text navicon"></i><span>Skills</span></a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="">
-
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Chaluka Rathnayake</h2>
-            <p>I'm <span class="typed" data-typed-items=".NET Developer">Software Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <div class="social-links">
-
-              <a href="https://github.com/chalukar" target="_blank"><i class="bi bi-github"></i></a>
-              <a href="https://www.linkedin.com/in/chaluka-rathnayake-a31a922b0" target="_blank"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>I’m a Software Engineer with over 10 years of experience designing clean, secure, and scalable .NET Core solutions integrated with Azure Cloud and containerized using Docker and Kubernetes. 
-
-My background spans multiple industries - HR, ERP, and insurance - where I’ve built microservice-based systems with modern integration patterns using Azure Service Bus, RabbitMQ, and RESTful APIs. 
-
-I’m passionate about crafting high-performing digital products that balance technology and human-centered design. Currently based in Stockholm, I’m pursuing a Master’s in Computer and Systems Sciences at Stockholm University, researching AI-driven green wall interfaces for smart cities.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 content">
-            <h2>.NET Developer | Microsoft Azure | Microservices | Docker | Kubernetes | RabbitMQ | .NET | SQL</h2>
-            <p class="fst-italic py-3">
-              
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-
-                  <li><i class="bi bi-chevron-right"></i> <strong> <a href="www.linkedin.com/in/chaluka-rathnayake-a31a922b0">LinkedIn</i></a></strong></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong> <a href="https://github.com/chalukar">GitHub</i></a></strong></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Address:</strong> <span> Stockholm, Sweden</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+46 700 946 303</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>chalukar.se@gmail.com</span></li>
-
-                </ul>
-              </div>
-            </div>
-            <p class="py-3">
-
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
- <!-- ======= Skills Section ======= -->
-<section id="skills" class="skills section py-5">
-  <div class="container" data-aos="fade-up">
-    <div class="section-title text-center mb-5">
-      <h2 class="fw-bold">My Technical Skills</h2>
-      <p class="text-muted">
-        A detailed look into the programming languages, frameworks, cloud services, and tools I use
-        to build robust and efficient software solutions.
-      </p>
-    </div>
-
-    <div class="row gy-4">
-      <!-- Left Column -->
-      <div class="col-lg-6">
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">C# / .NET Core (.NET 6+)</span>
-            <span class="text-muted">95%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
-              aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">ASP.NET Web API</span>
-            <span class="text-muted">90%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 90%"></div>
-          </div>
-        </div>
-
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">Azure (Service Bus, Functions, Blob)</span>
-            <span class="text-muted">85%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 85%"></div>
-          </div>
-        </div>
-
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">MS SQL Server / MySQL</span>
-            <span class="text-muted">85%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 85%"></div>
-          </div>
-        </div>
-
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">Entity Framework / Dapper</span>
-            <span class="text-muted">80%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 80%"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Right Column -->
-      <div class="col-lg-6">
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">Docker / Kubernetes</span>
-            <span class="text-muted">75%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 75%"></div>
-          </div>
-        </div>
-
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">RESTful APIs / Microservices</span>
-            <span class="text-muted">90%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 90%"></div>
-          </div>
-        </div>
-
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">JavaScript / jQuery / Blazor</span>
-            <span class="text-muted">70%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 70%"></div>
-          </div>
-        </div>
-
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">HTML5 / CSS3</span>
-            <span class="text-muted">80%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 80%"></div>
-          </div>
-        </div>
-
-        <div class="skill-item mb-4">
-          <div class="d-flex justify-content-between">
-            <span class="fw-semibold">Agile / TDD / CI-CD</span>
-            <span class="text-muted">85%</span>
-          </div>
-          <div class="progress rounded-pill" style="height: 12px;">
-            <div class="progress-bar" style="width: 85%"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+<aside id="sidebar">
+  <div class="sidebar-avatar">CR</div>
+  <div class="sidebar-name">Chaluka Rathnayake</div>
+  <div class="sidebar-role">.NET Developer</div>
+  <nav class="sidebar-nav">
+    <a href="#hero" class="active"><i class="bi bi-house-fill"></i> Home</a>
+    <a href="#about"><i class="bi bi-person-fill"></i> About</a>
+    <a href="#skills"><i class="bi bi-bar-chart-fill"></i> Skills</a>
+    <a href="#projects"><i class="bi bi-folder2-open"></i> Projects</a>
+    <a href="#footer"><i class="bi bi-envelope-fill"></i> Contact</a>
+  </nav>
+  <div class="sidebar-social">
+    <a href="https://github.com/chalukar" target="_blank"><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/chaluka-rathnayake-a31a922b0" target="_blank"><i class="bi bi-linkedin"></i></a>
+    <a href="mailto:chalukar.se@gmail.com"><i class="bi bi-envelope-fill"></i></a>
   </div>
-</section>
+</aside>
 
+<main id="main">
 
-<!-- /Skills Section -->
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-tag">Available for opportunities</div>
+    <h1 class="hero-name">Chaluka<br><em>Rathnayake</em></h1>
+    <p class="hero-desc">Senior .NET Software Engineer with 10 years building clean, secure, and scalable cloud-native systems across HR, ERP, and insurance industries.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary-hero"><i class="bi bi-folder2-open"></i> View Projects</a>
+      <a href="https://github.com/chalukar" target="_blank" class="btn-outline-hero"><i class="bi bi-github"></i> GitHub</a>
+    </div>
+    <div class="hero-chips">
+      <span class="hero-chip">.NET Core</span>
+      <span class="hero-chip">Azure Cloud</span>
+      <span class="hero-chip">Microservices</span>
+      <span class="hero-chip">Docker &amp; Kubernetes</span>
+      <span class="hero-chip">RabbitMQ</span>
+      <span class="hero-chip">Stockholm, Sweden</span>
+    </div>
+  </section>
 
-<!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="portfolio section py-5">
-  <div class="container text-center" data-aos="fade-up">
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">Who I am</div>
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-photo-col">
+        <div class="about-photo">
+          <img src="assets/img/profile-img.jpg" alt="Chaluka Rathnayake"
+            onerror="this.style.display='none'">
+        </div>
+        <div class="about-photo-tag">
+          <span class="role">.NET Software Engineer</span>
+          <span class="exp">10+ Years of Experience</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>Senior Full-Stack .NET Software Engineer with 9+ years of experience designing, building, and operating production-grade software across enterprise, SaaS, and cloud-integrated environments. Proven expertise in C# / .NET and microservices architecture, with strong foundations in distributed systems, event-driven design, REST API development, and clean architecture principles. Experienced across the full development lifecycle from technical design and implementation through to CI/CD, containerization, and continuous improvement. Comfortable working across backend and frontend, with deep .NET skills complemented by actively growing React and TypeScript capabilities. Thrives in cross-functional Agile teams, takes ownership of architectural decisions, and consistently delivers scalable, maintainable, and well-tested solutions in complex system environments.</p>
+        <div class="about-info-grid">
+          <div class="about-info-item"><i class="bi bi-geo-alt-fill"></i><div><span class="lbl">Location</span><span class="val">Stockholm, Sweden</span></div></div>
+          <div class="about-info-item"><i class="bi bi-telephone-fill"></i><div><span class="lbl">Phone</span><span class="val">+46 700 946 303</span></div></div>
+          <div class="about-info-item"><i class="bi bi-envelope-fill"></i><div><span class="lbl">Email</span><a href="chalukar.se@gmail.com" target="_blank" class="val">chalukar.se@gmail.com</a></div></div>
+          <div class="about-info-item"><i class="bi bi-linkedin"></i><div><span class="lbl">LinkedIn</span><a href="https://www.linkedin.com/in/chaluka-rathnayake-a31a922b0" target="_blank" class="val">View Profile</a></div></div>
+          <div class="about-info-item"><i class="bi bi-github"></i><div><span class="lbl">GitHub</span><a href="https://github.com/chalukar" target="_blank" class="val">github.com/chalukar</a></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Section Title -->
-    <div class="section-title mb-4">
-      <h2 class="fw-bold">Portfolio</h2>
-      <p class="text-muted">
-        Explore my software engineering projects, including .NET microservices, Azure cloud solutions, and containerized applications.  
-        Visit my GitHub profile to view source code, CI/CD pipelines, and open-source contributions.
-      </p>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">What I work with</div>
+    <h2 class="section-title">Technical Skills</h2>
+    <p class="section-sub">Programming languages, frameworks, cloud services, and tools I use to build robust and efficient software solutions.</p>
+    <div class="skills-grid">
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">C# / .NET Core (.NET 6+)</span><span class="skill-pct">95%</span></div><div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">Docker / Kubernetes</span><span class="skill-pct">75%</span></div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">ASP.NET Web API</span><span class="skill-pct">90%</span></div><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">RESTful APIs / Microservices</span><span class="skill-pct">90%</span></div><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">Azure (Service Bus, Functions, Blob)</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">JavaScript / jQuery / Blazor</span><span class="skill-pct">70%</span></div><div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">MS SQL Server / MySQL</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">HTML5 / CSS3</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">Entity Framework / Dapper</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+      <div class="skill-item"><div class="skill-header"><span class="skill-name">Agile / TDD / CI-CD</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <!--<section id="projects">
+    <div class="section-label">What I've built</div>
+    <h2 class="section-title">Personal Projects</h2>
+    <p class="section-sub">A selection of personal and open-source projects showcasing .NET, Azure, microservices, and cloud-native architectures.</p>
+
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="azure">Azure &amp; Cloud</button>
+      <button class="filter-btn" data-filter="microservices">Microservices</button>
+      <button class="filter-btn" data-filter="api">APIs &amp; Backend</button>
+      <button class="filter-btn" data-filter="research">Research</button>
+    </div> -->
+
+    <!-- <div class="projects-grid">
+
+      <div class="project-card" data-category="azure microservices">
+        <div class="card-visual vis-azure">
+          <i class="bi bi-cloud-arrow-up-fill"></i>
+          <span class="vis-label">Azure</span>
+          <span class="card-badge badge-done">Completed</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Azure Service Bus Messaging Platform</h3>
+          <p class="card-desc">Distributed messaging solution built with Azure Service Bus and .NET 7. Implements publish/subscribe patterns, dead-letter queues, and retry policies for reliable inter-service communication across microservice boundaries.</p>
+          <div class="tag-row">
+            <span class="tag">.NET 7</span><span class="tag">Azure Service Bus</span><span class="tag">C#</span><span class="tag">Docker</span><span class="tag">RabbitMQ</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="microservices api">
+        <div class="card-visual vis-green">
+          <i class="bi bi-diagram-3-fill"></i>
+          <span class="vis-label">Microservices</span>
+          <span class="card-badge badge-active">Active</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">HR Microservices Platform</h3>
+          <p class="card-desc">Modular HR management system built on microservices architecture. Includes employee, payroll, and leave management services with RESTful APIs, JWT authentication, and role-based access control.</p>
+          <div class="tag-row">
+            <span class="tag">ASP.NET Core</span><span class="tag">JWT Auth</span><span class="tag">MS SQL</span><span class="tag">EF Core</span><span class="tag">Kubernetes</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="api">
+        <div class="card-visual vis-purple">
+          <i class="bi bi-shield-lock-fill"></i>
+          <span class="vis-label">API Security</span>
+          <span class="card-badge badge-done">Completed</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Insurance Claim Processing API</h3>
+          <p class="card-desc">RESTful API automating insurance claim workflows with submission, validation, status tracking, and document management via Azure Blob Storage. Built with clean architecture and full OpenAPI/Swagger documentation.</p>
+          <div class="tag-row">
+            <span class="tag">.NET 6</span><span class="tag">Azure Blob</span><span class="tag">Dapper</span><span class="tag">Swagger</span><span class="tag">Clean Arch</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="azure">
+        <div class="card-visual vis-teal">
+          <i class="bi bi-lightning-charge-fill"></i>
+          <span class="vis-label">Serverless</span>
+          <span class="card-badge badge-done">Completed</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Serverless Notification Engine</h3>
+          <p class="card-desc">Event-driven notification system using Azure Functions triggered by Service Bus messages. Supports email, SMS, and push notifications with configurable templates, retry logic, and delivery tracking.</p>
+          <div class="tag-row">
+            <span class="tag">Azure Functions</span><span class="tag">SendGrid</span><span class="tag">C#</span><span class="tag">CosmosDB</span><span class="tag">CI/CD</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="research">
+        <div class="card-visual vis-orange">
+          <i class="bi bi-cpu-fill"></i>
+          <span class="vis-label">AI / Smart City</span>
+          <span class="card-badge badge-research">Research</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">AI-Driven Green Wall Interface</h3>
+          <p class="card-desc">Research at Stockholm University exploring AI-powered IoT interfaces for smart city green walls. Investigates sensor data fusion, ML models for plant health prediction, and human-centered design for urban sustainability.</p>
+          <div class="tag-row">
+            <span class="tag">IoT</span><span class="tag">Machine Learning</span><span class="tag">Python</span><span class="tag">Azure IoT Hub</span><span class="tag">HCI</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="microservices api">
+        <div class="card-visual vis-red">
+          <i class="bi bi-boxes"></i>
+          <span class="vis-label">ERP</span>
+          <span class="card-badge badge-active">Active</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">ERP Integration Gateway</h3>
+          <p class="card-desc">Lightweight API gateway for ERP integrations providing a unified interface for multiple third-party services. Features request routing, rate limiting, Redis caching, and centralized logging with Application Insights.</p>
+          <div class="tag-row">
+            <span class="tag">YARP</span><span class="tag">Redis</span><span class="tag">App Insights</span><span class="tag">.NET 8</span><span class="tag">Ocelot</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+    </div> -->
+
+    <section id="projects">
+    <div class="section-label">What I've built</div>
+    <h2 class="section-title">Personal Projects</h2>
+    <p class="section-sub">A selection of personal and open-source projects showcasing .NET, Azure, microservices, and cloud-native architectures.</p>
+
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="dotnet">. NET</button>
+      <button class="filter-btn" data-filter="microservices">Microservices</button>
+      <button class="filter-btn" data-filter="api">APIs &amp; Backend</button>
+      <button class="filter-btn" data-filter="research">Research / IoT</button>
     </div>
 
-    <!-- GitHub Button -->
-    <a href="https://github.com/chalukar" class="btn btn-dark btn-lg" target="_blank">
-      <i class="bi bi-github me-2"></i>View My GitHub
-    </a>
+    <div class="projects-grid">
 
-  </div>
-</section>
-<!-- /Portfolio Section -->
+      <!-- MES -->
+      <div class="project-card" data-category="dotnet api">
+        <div class="card-visual vis-azure">
+          <i class="bi bi-gear-wide-connected"></i>
+          <span class="vis-label">Full-Stack · .NET 9</span>
+          <span class="card-badge badge-done">Ongoing</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Manufacturing Execution System (MES)</h3>
+          <p class="card-desc">Full-stack MES built with .NET 9 and Blazor WebAssembly following Clean Architecture, DDD, CQRS with MediatR, and SOLID principles. Features real-time updates via SignalR and JWT auth.</p>
+          <div class="tag-row">
+            <span class="tag">.NET 9</span><span class="tag">Blazor WASM</span><span class="tag">CQRS</span><span class="tag">MediatR</span><span class="tag">DDD</span><span class="tag">SignalR</span><span class="tag">EF Core 9</span><span class="tag">SQL Server</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/Build-Manufacturing-Execution-System-MES-using-Blazor-Web-App-with-.NET-9" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
 
-  </main>
+      <!-- GreenWall LLM -->
+      <div class="project-card" data-category="research">
+        <div class="card-visual vis-green">
+          <i class="bi bi-chat-dots-fill"></i>
+          <span class="vis-label">AI · IoT · LLM</span>
+          <span class="card-badge badge-research">Research</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">GreenWall LLM Integration</h3>
+          <p class="card-desc">Voice-interactive Vertical Living Green Wall powered by AI that enables natural conversations between plants and humans. Combines IoT sensors, speech recognition, and Large Language Models for intelligent plant monitoring.</p>
+          <div class="tag-row">
+            <span class="tag">.NET Core</span><span class="tag">Python</span><span class="tag">LLM</span><span class="tag">Ollama</span><span class="tag">IoT</span><span class="tag">Speech AI</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/GreenWall-LLM-Thesis" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
 
-<footer id="footer" class="footer position-relative light-background py-4">
-  <div class="container text-center">
+      <!-- KandyKaffe -->
+      <div class="project-card" data-category="microservices dotnet">
+        <div class="card-visual vis-orange">
+          <i class="bi bi-shop"></i>
+          <span class="vis-label">Microservices · MVC</span>
+          <span class="card-badge badge-done">Completed</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">KandyKaffe Restaurant Management</h3>
+          <p class="card-desc">Full-stack microservices-based restaurant management system built with .NET 8. Manages menu items, orders, and customers through a comprehensive web application with Azure integration.</p>
+          <div class="tag-row">
+            <span class="tag">.NET 8</span><span class="tag">Microservices</span><span class="tag">Azure</span><span class="tag">MVC</span><span class="tag">EF Core</span><span class="tag">Razor</span><span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/KandyKaffe-Restaurant-Web-dev" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
 
-    <h3 class="sitename mb-2">Chaluka Rathnayake</h3>
-    <p class="mb-4">
-      Software Engineer specializing in .NET, Azure, and Cloud-native microservices.  
-      Building scalable, secure, and reliable systems for modern businesses.
-    </p>
+      <!-- Pharmacy -->
+      <div class="project-card" data-category="dotnet api">
+        <div class="card-visual vis-teal">
+          <i class="bi bi-capsule"></i>
+          <span class="vis-label">.NET MVC</span>
+          <span class="card-badge badge-done">Completed</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Pharmacy Inventory Management System</h3>
+          <p class="card-desc">Web-based application designed to streamline pharmacy inventory and sales management with a clean MVC structure, data-driven UI using Razor views, and Entity Framework Core for data access.</p>
+          <div class="tag-row">
+            <span class="tag">.NET Core MVC</span><span class="tag">SQL Server</span><span class="tag">EF Core</span><span class="tag">Razor</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/Pharmacy-Inventory-Management-System-MVC" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
 
-    <!-- Social Links -->
-    <div class="social-links d-flex justify-content-center gap-3 mb-4">
-      <a href="https://github.com/chalukar" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/chaluka-rathnayake-a31a922b0/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-      <a href="mailto:chaluka.rathnayaka@gmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
+      <!-- Library API -->
+      <div class="project-card" data-category="api dotnet">
+        <div class="card-visual vis-purple">
+          <i class="bi bi-book-fill"></i>
+          <span class="vis-label">DDD · REST API</span>
+          <span class="card-badge badge-done">Completed</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Library API System</h3>
+          <p class="card-desc">Library domain modelled with Domain-Driven Design (DDD) principles. Exposes clean REST APIs for managing books, members, and loans with a well-structured domain layer.</p>
+          <div class="tag-row">
+            <span class="tag">.NET</span><span class="tag">DDD</span><span class="tag">REST API</span><span class="tag">Clean Architecture</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/LibraryAPISystem.git" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- Clean Architecture Minimal API -->
+      <div class="project-card" data-category="api dotnet">
+        <div class="card-visual vis-red">
+          <i class="bi bi-layers-fill"></i>
+          <span class="vis-label">Clean Arch · MongoDB</span>
+          <span class="card-badge badge-done">Completed</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Clean Architecture Minimal API</h3>
+          <p class="card-desc">Minimal API implementation using Clean Architecture with .NET 9, MongoDB as the data store, and Docker for containerisation. A reference template for scalable and maintainable API projects.</p>
+          <div class="tag-row">
+            <span class="tag">.NET 9</span><span class="tag">Minimal API</span><span class="tag">MongoDB</span><span class="tag">Docker</span><span class="tag">Clean Arch</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/CleanArchitectureDotNet9-MinimalAPI-MongoDB" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- IoT Python -->
+      <div class="project-card" data-category="research">
+        <div class="card-visual vis-green" style="background: linear-gradient(135deg,#e8f5e9,#c8e6c9);">
+          <i class="bi bi-house-gear-fill"></i>
+          <span class="vis-label">IoT · Python · MSc</span>
+          <span class="card-badge badge-research">Academic</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">IoT Scene Management — Python</h3>
+          <p class="card-desc">MSc academic project integrating automation and scene management aspects of a Smart Home System. Implements device control, scheduling, and event-driven scene triggers using Python.</p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">IoT</span><span class="tag">Smart Home</span><span class="tag">Automation</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/IoT-Scene-Management-Project-Python" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- IoT Java -->
+      <div class="project-card" data-category="research">
+        <div class="card-visual vis-orange" style="background: linear-gradient(135deg,#fff8e1,#ffe082);">
+          <i class="bi bi-house-gear-fill"></i>
+          <span class="vis-label">IoT · Java · MSc</span>
+          <span class="card-badge badge-research">Academic</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">IoT Scene Management — Java</h3>
+          <p class="card-desc">MSc academic project integrating automation and scene management aspects of a Smart Home System. Java-based counterpart implementing the same smart home automation logic with an OOP approach.</p>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">IoT</span><span class="tag">Smart Home</span><span class="tag">Automation</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/IoT-Scene-Management-Project-Java" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- Binary Message Encoding -->
+      <div class="project-card" data-category="dotnet api">
+        <div class="card-visual vis-purple" style="background: linear-gradient(135deg,#f3e5f5,#ce93d8);">
+          <i class="bi bi-file-binary-fill"></i>
+          <span class="vis-label">.NET · TDD</span>
+          <span class="card-badge badge-done">Completed</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Simple Binary Message Encoding Scheme</h3>
+          <p class="card-desc">A binary message encoder/decoder built with .NET Core. Demonstrates low-level binary protocol design and test-driven development with a comprehensive xUnit test suite.</p>
+          <div class="tag-row">
+            <span class="tag">.NET Core</span><span class="tag">xUnit</span><span class="tag">TDD</span><span class="tag">Binary Protocol</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/chalukar/Simple-Binary-Message-Encoding-Scheme" target="_blank" class="btn-gh"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+
     </div>
 
-    <!-- Copyright -->
-    <div class="copyright text-muted small">
-      © <span id="year"></span> <strong class="sitename">Chaluka Rathnayake</strong> — All Rights Reserved.
+    <div class="github-cta">
+      <div class="cta-left">
+        <h3>Explore all projects on GitHub</h3>
+        <p>Browse source code, CI/CD pipelines, README docs, and open-source contributions.</p>
+        <div class="cta-stats">
+          <div class="cta-stat"><span class="num">10+</span><span class="lbl">Repositories</span></div>
+          <div class="cta-stat"><span class="num">10+</span><span class="lbl">Years Exp.</span></div>
+          <div class="cta-stat"><span class="num">3</span><span class="lbl">Industries</span></div>
+        </div>
+      </div>
+      <a href="https://github.com/chalukar" target="_blank" class="btn-cta-gh"><i class="bi bi-github"></i> Visit My GitHub</a>
     </div>
+  </section>
 
-  </div>
-</footer>
+  <!-- FOOTER -->
+  <footer id="footer">
+    <h3>Chaluka Rathnayake</h3>
+    <p>Software Engineer specializing in .NET, Azure, and Cloud-native microservices. Building scalable, secure, and reliable systems for modern businesses.</p>
+    <div class="footer-social">
+      <a href="https://github.com/chalukar" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/chaluka-rathnayake-a31a922b0/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:chalukar.se@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+    <div class="footer-copy">© <span id="year"></span> Chaluka Rathnayake — All Rights Reserved.</div>
+  </footer>
 
+</main>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+  // Mobile sidebar
+  const toggle = document.getElementById('mobileToggle');
+  const sidebar = document.getElementById('sidebar');
+  toggle.addEventListener('click', () => sidebar.classList.toggle('open'));
+  sidebar.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => { if (window.innerWidth < 900) sidebar.classList.remove('open'); });
+  });
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  // Active nav on scroll
+  const sections = document.querySelectorAll('section[id], footer[id]');
+  const navLinks = document.querySelectorAll('.sidebar-nav a');
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        const lnk = document.querySelector(`.sidebar-nav a[href="#${e.target.id}"]`);
+        if (lnk) lnk.classList.add('active');
+      }
+    });
+  }, { threshold: 0.35 });
+  sections.forEach(s => obs.observe(s));
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  // Filter
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('.project-card').forEach(card => {
+        card.classList.toggle('hidden', f !== 'all' && !card.dataset.category.includes(f));
+      });
+    });
+  });
+</script>
 
 </body>
-
 </html>
+
+
+
+
+
+
+
